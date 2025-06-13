@@ -16,10 +16,8 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.order-button:hover,
-.order-button:focus {
-  color: #404bbf;
+.contacts-link:focus {
+  background-color: #404bbf;
 }
 
 /* Header styles start*/
@@ -84,6 +82,11 @@ a {
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
 /* Hero section styles end */
 
 /* Benefits section styles start */
@@ -113,6 +116,9 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team-item {
+  background-color: #ffffff;
+}
 
 .team-title,
 .portfolio-title {
@@ -122,6 +128,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-subtitle,
